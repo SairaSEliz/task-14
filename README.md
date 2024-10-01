@@ -9,7 +9,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 1. Login to Your Cloud VM via SSH from Kali Linux
    - Open your Kali Linux terminal.
    - Use the following SSH command to log in to the VM:
-     "<ssh -i /path to private_key> username@<your-vm-public-ip>"
+     "<ssh -i /home/kali/task13/kali_key.pem azureuser@20.192.9.221"
    -  Capture a screenshot showing successful SSH login.
 
 2. Clone the Repo from Taskten (HTML Page)
