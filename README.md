@@ -74,7 +74,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 
    - Take a screenshot showing the creation of the database, table, and user in MySQL (database creation4.png).
 
-9. Create/Register a User via PHP Script
+9. Create/Register a User via PHP Script(registeration page5.png)
    - Write or copy a PHP registration script that allows users to register their details (username, email, password) and stores them in the users table.
    - Ensure the registration form connects to the MySQL database and inserts data correctly.
    - Test the registration page by accessing it from your browser:
@@ -83,6 +83,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 10. Login as the Created User
     - After registering a new user, log in using the same credentials.
     - Take a screenshot showing the successful login page in (login.png).
+    - after login dashboard open(dashboard.png)
 
 11. Share the Public IP of Your Web Server
     - Share your web server’s public IP with friends or colleagues to verify if they can access the registration and login pages.
