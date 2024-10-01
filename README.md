@@ -10,15 +10,17 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
    - Open your Kali Linux terminal.
    - Use the following SSH command to log in to the VM:
      "<ssh -i /home/kali/task13/kali_key.pem azureuser@20.192.9.221"
-   -  Capture a screenshot showing successful SSH login.
+   -  Capture a screenshot showing successful SSH login which is .
 
 2. Clone the Repo from Taskten (HTML Page)
    - After logging into the VM, clone your taskten repository from GitHub:
-     "git clone https://github.com/yourusername/taskten.git"
+     "git clone https://github.com/SairaSELiz/task-12.git"
 
 3. Copy the Cloned Files to Apache Web Server Root Directory
    - Copy the HTML and related files from the cloned taskten folder to the root directory of the Apache web server:
-     "sudo cp -r taskten/* /var/www/html/"
+   - step 1: "ls"
+   - step 2: "cd /var/www/html"
+   - step 3: "sudo cp -r /var/www/html/register.php/* /var/www/html/"
 
 4. Start the Apache Web Server
    - Start the Apache web server on the VM:
@@ -29,6 +31,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 5. Access the Web Page via Local Browser
    - Open a web browser on your local machine and enter the public IP of your cloud VM:
      "http://<your-vm-public-ip>"
+     "http://20.192.9.221/"
    - Capture a screenshot of the webpage being served from the cloud VM.
 
 6. Install PHP and MySQL on the VM
