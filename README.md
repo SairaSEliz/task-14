@@ -10,7 +10,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
    - Open your Kali Linux terminal.
    - Use the following SSH command to log in to the VM:
      "<ssh -i /home/kali/task13/kali_key.pem azureuser@20.192.9.221"
-   -  Capture a screenshot showing successful SSH login which is .
+   -  Capture a screenshot showing successful SSH login which is auzre1.png.
 
 2. Clone the Repo from Taskten (HTML Page)
    - After logging into the VM, clone your taskten repository from GitHub:
